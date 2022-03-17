@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap');
+*:focus{
+    outline: none !important;
+    font-family: 'Nunito', sans-serif;
+}
+.input-note textarea{
+    resize: none !important;
+    overflow: hidden !important;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* Body */
+
+    color: #474D52;
+
+}
+body{
+    padding: 0 !important;
+}
+.container {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.small {
+    font-size: small;
+}
+.footer p{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    margin: 0;
+    margin-top: 10px;
+    color: #8D99A0;
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .2s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+}
+
+.list-enter-active, .list-leave-active {
+    transition: all .4s;
+}
+.list-enter, .list-leave-to /* .list-leave-active below version 2.1.8 */ {
+    opacity: 0;
+    transform: translateY(30px);
+}
